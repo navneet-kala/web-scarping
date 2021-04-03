@@ -1,3 +1,23 @@
+In this project, you will build a specialized Python program to crawl, parse and extract useful information from online websites.
+
+Given an input year, your objective is to extract all articles published in/after that year from your selected journal. As a start point, you are required to extract the following 9 fields for each article:
+Title, Authors, Author Affiliations, Correspondence Author, Correspondence Author's Email, Publish Date, Abstract, Keywords, Full Paper (Text format).
+
+Given an input year, your program is expected to crawl the journal’s website automatically, and parse and extract useful fields for each crawled article. The program is expected to store the extracted information into a plain file elegantly. (One column for one field.)
+Extracted information should be written into a plain text file (one row per article and one column per field). If any columns are not available, please mark them as NA (don’t leave them blank).
+
+In the final submission, please encapsulate your program into a function which will take the year as a parameter. Please submit both the runnable code and the crawled data. 
+
+Your final submission should be a compressed file including 4 folders:
+1. all related Python scripts and a description specifying the functionality of each script
+2. crawled html pages of all articles, the name of each article is DOI.html (e.g.,10.1371/journal.pgen.1005958.html)
+3. one plain text file with the aforementioned 10 fields, its name should be JOURNAL_NAME.txt (e.g., PLOS Genetics.txt). One Python script to read the delivered plain text file.
+4. one PDF file for major challenges you have addressed.
+
+
+
+================================================================================================================================================================================
+
 My Project - G3-Genes Genomes Genetics
 
 SUBMISSIONS

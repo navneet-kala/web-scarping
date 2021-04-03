@@ -1,0 +1,23 @@
+Challenges Faced
+==================
+
+Extracting ABSTRACT
+	all text was not child of the main div class
+
+Creating folder with actual html pages
+	creating folders for year and month took me some time to figure out
+	Took time to figure out how to get the html pages and move them to the correct folder for year and month
+
+Learning curve with using htlm tags and attrinutes to extract data
+
+Trouble finding how to create url using year and then for months and then looping thru every article for that month
+
+Stripping text from the extracted html 
+
+Removing from email the {at} symbol
+
+Some journals did not have the fieldnames so had to account for them and not error out if no values being extracted
+
+Reading the CSV file is recommended using DictReader since it is fast but getting IO error sometimes using it, hence used Pandas too
+
+
